@@ -31,6 +31,16 @@ namespace SkillFactoryCSharp12Algorithms
         {
             Console.WriteLine("Введите количество пользователей");
             int userCount = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < userCount; i++)
+            {
+                Console.WriteLine("Введите логин пользователя");
+                string login = Console.ReadLine();
+                Console.WriteLine("Введите имя пользователя");
+                string name = Console.ReadLine();
+                Console.WriteLine("Введите статус пользователя");
+                bool status = Convert.ToBoolean(Console.ReadLine());
+                list.Add(new User(login, name, status));
+            }
         }
     }
 }
