@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.8.3">
   <diagram name="Page-1" id="2t1w9EjYc3GMAiw-3vW3">
-    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,46 +88,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-50" value="ShowAds()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="60" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-51" target="fktOU1IL38EF21-Itv1q-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-51" value="&lt;p&gt;Посетите наш новый сайт с бесплатными играми free.games.for.a.fool.com&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="182" width="200" height="60" as="geometry" />
+          <mxGeometry x="620" y="192" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-52" target="fktOU1IL38EF21-Itv1q-53">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fktOU1IL38EF21-Itv1q-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="350" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-52" value="&lt;p&gt;Thread&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant-caps: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-selector-class&quot;&gt;.Sleep&lt;/span&gt;(&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant-caps: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;1000&lt;/span&gt;)&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-53" target="fktOU1IL38EF21-Itv1q-54">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-53" value="&lt;p style=&quot;font-size: 11px;&quot;&gt;Купите подписку на МыКомбо и слушайте музыку везде и всегда.&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="372" width="200" height="60" as="geometry" />
+          <mxGeometry x="620" y="382" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-54" target="fktOU1IL38EF21-Itv1q-55">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fktOU1IL38EF21-Itv1q-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="530" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-54" value="&lt;p&gt;Thread&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant-caps: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-selector-class&quot;&gt;.Sleep&lt;/span&gt;(2&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant-caps: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;000&lt;/span&gt;)&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-55" target="fktOU1IL38EF21-Itv1q-56">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-55" value="&lt;p style=&quot;font-size: 10px;&quot;&gt;Оформите премиум-подписку на наш сервис, чтобы не видеть рекламу.&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="620" y="545" width="200" height="60" as="geometry" />
+          <mxGeometry x="620" y="555" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-56" target="fktOU1IL38EF21-Itv1q-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-56" value="&lt;p&gt;Thread&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant-caps: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-selector-class&quot;&gt;.Sleep&lt;/span&gt;(3&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant-caps: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;000&lt;/span&gt;)&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fktOU1IL38EF21-Itv1q-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="710" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-57" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="730" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="740" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-69" value="GetUserList&lt;div&gt;(List&amp;lt;User&amp;gt; list)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="430" y="70" width="120" height="80" as="geometry" />
@@ -182,8 +185,10 @@
         <mxCell id="fktOU1IL38EF21-Itv1q-87" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;userList.Add(new User(login, &amp;nbsp;name, status))&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-88" target="fktOU1IL38EF21-Itv1q-105">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fktOU1IL38EF21-Itv1q-88" value="user.Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="430" y="680" width="120" height="40" as="geometry" />
@@ -239,11 +244,90 @@
         <mxCell id="fktOU1IL38EF21-Itv1q-104" value="Введите имя" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="430" y="612" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-105" target="fktOU1IL38EF21-Itv1q-89">
+        <mxCell id="fktOU1IL38EF21-Itv1q-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fktOU1IL38EF21-Itv1q-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-114" value="GetSubscription()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-115" target="fktOU1IL38EF21-Itv1q-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fktOU1IL38EF21-Itv1q-105" value="Введите статус" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="430" y="750" width="120" height="40" as="geometry" />
+        <mxCell id="fktOU1IL38EF21-Itv1q-115" value="GetSubscription()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-116" target="fktOU1IL38EF21-Itv1q-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-116" value="Введите статус пользователя - 1 для премиум, 0 для обычной" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="945" y="192" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-117" target="fktOU1IL38EF21-Itv1q-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-117" value="data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-118" target="fktOU1IL38EF21-Itv1q-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-118" target="fktOU1IL38EF21-Itv1q-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-118" value="data == &quot;1&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="382" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-119" target="fktOU1IL38EF21-Itv1q-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-119" target="fktOU1IL38EF21-Itv1q-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-119" value="data == &quot;0&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-120" value="Ошибка! Убедитесь,&amp;nbsp;&lt;div&gt;что вы ввели 1 или 0&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-122" value="Thread&lt;span style=&quot;font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; box-sizing: border-box; font-stretch: inherit; line-height: 1.4em; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-selector-class&quot;&gt;.Sleep&lt;/span&gt;(&lt;span style=&quot;font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; box-sizing: border-box; font-stretch: inherit; line-height: 1.4em; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;1000&lt;/span&gt;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-123" value="Thread&lt;span style=&quot;font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; box-sizing: border-box; font-stretch: inherit; line-height: 1.4em; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-selector-class&quot;&gt;.Sleep&lt;/span&gt;(2&lt;span style=&quot;font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; box-sizing: border-box; font-stretch: inherit; line-height: 1.4em; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;000&lt;/span&gt;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-124" value="Thread&lt;span style=&quot;font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; box-sizing: border-box; font-stretch: inherit; line-height: 1.4em; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-selector-class&quot;&gt;.Sleep&lt;/span&gt;(3&lt;span style=&quot;font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; box-sizing: border-box; font-stretch: inherit; line-height: 1.4em; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;000&lt;/span&gt;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="652" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-125" value="return true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="392" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-126" value="return false" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-134" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fktOU1IL38EF21-Itv1q-120" target="fktOU1IL38EF21-Itv1q-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="400" as="sourcePoint" />
+            <mxPoint x="920" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="720" />
+              <mxPoint x="920" y="720" />
+              <mxPoint x="920" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-135" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="398" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-136" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="518" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-137" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="462" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fktOU1IL38EF21-Itv1q-138" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="580" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
