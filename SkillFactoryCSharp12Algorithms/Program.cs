@@ -29,7 +29,8 @@ namespace SkillFactoryCSharp12Algorithms
 
         public void GetUserList(List<User> list)
         {
-
+            Console.WriteLine("Введите количество пользователей");
+            int userCount = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
