@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillFactoryCSharp12Algorithms", "SkillFactoryCSharp12Algorithms\SkillFactoryCSharp12Algorithms.csproj", "{E6F2DAB2-2242-4D84-9BBD-674244DD4F89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksInUnit", "TasksInUnit\TasksInUnit.csproj", "{9080A42F-D980-450C-848D-E1731E61A973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E6F2DAB2-2242-4D84-9BBD-674244DD4F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6F2DAB2-2242-4D84-9BBD-674244DD4F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6F2DAB2-2242-4D84-9BBD-674244DD4F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9080A42F-D980-450C-848D-E1731E61A973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9080A42F-D980-450C-848D-E1731E61A973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9080A42F-D980-450C-848D-E1731E61A973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9080A42F-D980-450C-848D-E1731E61A973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
