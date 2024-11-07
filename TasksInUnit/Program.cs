@@ -10,13 +10,10 @@ namespace TasksInUnit
 
         static void GetPageForUser(User user)
         {
-            if (user.LoggedIn)
-            {
-                Console.WriteLine("User logged in");
-
-                if (user.HasAccessToSection)
-                {
-                    Console.WriteLine("User has access to that section");
+            if (!user.LoggedIn) return;
+            Console.WriteLine("User logged in");
+            if (!user.HasAccessToSection) return;
+            Console.WriteLine("User has access to that section");
 
                     if (user.HasUnseenNews)
                     {
@@ -27,8 +24,8 @@ namespace TasksInUnit
                     {
                         DecorateAdminTools();
                     }
-                }
-            }
+
+
         }
 
         static void ShowNews()
