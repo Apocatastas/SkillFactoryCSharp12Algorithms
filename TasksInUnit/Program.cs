@@ -1,9 +1,18 @@
 ﻿using System;
 using System.Collections;
 using System.Reflection;
+using System.Xml.Linq;
 
 namespace TasksInUnit
 {
+    /// <summary>
+    /// Реализуйте метод, который будет возвращать индекс элемента в отсортированном массиве,
+    /// на место которого можно будет вставить элемент так, чтобы не нарушить порядок сортировки.
+    /// В рамках решения задачи считаем, что:
+    /// 1) массив отсортирован от меньшего к большему, и что числа в нём не повторяются;
+    /// 2) при вставке элемента по индексу, который будет возвращен, оставшаяся часть массива
+    ///    будет сдвигаться вправо.
+    /// </summary>
     class MainClass
     {
         public static void Main(string[] args)
@@ -25,11 +34,37 @@ namespace TasksInUnit
             Console.WriteLine("\nОтсортированный массив:");
             PrintArray(array, array.Length);
 
-            Console.WriteLine("\nВведите элемент для поиска: ");
+            Console.WriteLine("\nВведите элемент для поиска индекса вставки: ");
             int target = int.Parse(Console.ReadLine());
-            int targetPosition = BinarySearch(array, target, 0, array.Length - 1);
-            Console.WriteLine("Найден, элемент array[{0}] = {1}", targetPosition, array[targetPosition]);
+
+            int index = FindAPlace(array, target);
+
+            PrintArray(array, 0, index);
+            Console.Write(" [ ] ");
+            PrintArray(array, index, array.Length);
+            Console.WriteLine("\nВставлен элемент {0} на позицию {1}", target, index);
             Console.ReadKey();
+        }
+
+        public static int FindAPlace(int[] array, int target)
+        {
+            int index = 0;
+            for (index = 0; index < array.Length; index++)
+            {
+                if (array[index] > target)
+                {
+                    return index;
+                }
+            }
+            return index;
+        }
+
+        public static void PrintArray(int[] array, int start, int end)
+        {
+            for (int i = start; i < end; i++)
+            {
+                Console.Write(array[i] + " ");
+            }
         }
 
         public static void PrintArray(int[] array, int length)
@@ -38,28 +73,6 @@ namespace TasksInUnit
             {
                 Console.Write(array[i] + " ");
             }
-        }
-
-        public static int BinarySearch(int[] array, int target, int left, int right)
-        {
-            int middle = array.Length / 2;
-            while (!(array[middle] == target))
-            {
-                middle = (left + right) / 2;
-                if (array[middle] > target)
-                {
-                    Console.WriteLine("Ищем: {0} - {1}", left, right);
-                    right = middle - 1;
-
-                }
-                else
-                {
-                    Console.WriteLine("Ищем: {0} - {1}", left, right);
-                    left = middle + 1;
-                }
-
-            }
-            return middle;
         }
     }
 }
